@@ -2,7 +2,7 @@
 
 #Infix to Prefix Conversion
 While we use infix expressions in our day to day lives. Computers have trouble understanding this format because they need to keep in mind rules of operator precedence and also brackets. Prefix and Postfix expressions are easier for a computer to understand and evaluate. 
-Given two operands a                 and b                 and an operator \odot                 , the infix notation implies that O will be placed in between a and b i.e a \odot b                 . When the operator is placed after both operands i.e ab\odot                 , it is called postfix notation. And when the operator is placed before the operands i.e \odot a b                 , the expression in prefix notation.
+Given two operands a                 and b                 and an operator \odot                 , the infix notation implies that O will be placed in between a and b i.e (a * b)                 . When the operator is placed after both operands i.e ab\odot                 , it is called postfix notation. And when the operator is placed before the operands i.e (* a b)                 , the expression in prefix notation.
 Given any infix expression, we can obtain the equivalent prefix and postfix format.
 
 
@@ -11,6 +11,7 @@ For an assignment, I am required to write an assembly program that will convert 
 
 ##Write program to generate assembly code from prefix code
 ##generate assembly code from prefix code
+
 
 #include<bits/stdc++.h>
 #define SIZE 5
