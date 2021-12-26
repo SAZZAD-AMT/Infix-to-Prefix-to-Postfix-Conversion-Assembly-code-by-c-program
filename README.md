@@ -1,16 +1,16 @@
 # Infix-to-Prefix-to-Postfix-Conversion-Assembly
 
-#Infix to Prefix Conversion
+<h1>Infix to Prefix Conversion</h1>
 While we use infix expressions in our day to day lives. Computers have trouble understanding this format because they need to keep in mind rules of operator precedence and also brackets. Prefix and Postfix expressions are easier for a computer to understand and evaluate. 
 Given two operands a                 and b                 and an operator \odot                 , the infix notation implies that O will be placed in between a and b i.e (a * b)                 . When the operator is placed after both operands i.e ab\odot                 , it is called postfix notation. And when the operator is placed before the operands i.e (* a b)                 , the expression in prefix notation.
 Given any infix expression, we can obtain the equivalent prefix and postfix format.
 
 
-#Infix to Postfix Conversion
+<h1>Infix to Postfix Conversion</h1>
 For an assignment, I am required to write an assembly program that will convert an infix string that may consist of +,-,*,/,(,) and their operands. I also the C code from which I have based my assembly code off of. I am working on x86 intel architecture (that is what we are learning in class). The C code works in any case, my assembly code compiles but does not convert the string (for example, I enter 5+5, and 5+5 is returned when it should be 55+). My best guess is that I am not using the stack properly. I will include my main program, my C function, and my assembly code. My question is, obviously, where I am going wrong? Thank you for your time and help.
 
-##Write program to generate assembly code from prefix code
-##generate assembly code from prefix code
+<h1>1. Write program to generate assembly code from prefix code
+2. Generate assembly code from prefix code</h1>
 
 
 #include<bits/stdc++.h>
