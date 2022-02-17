@@ -12,7 +12,7 @@ For an assignment, I am required to write an assembly program that will convert 
 <h1>1. Write program to generate assembly code from prefix code
 2. Generate assembly code from prefix code</h1>
 
-
+```
 #include<bits/stdc++.h>
 #define SIZE 5
 using namespace std ;
